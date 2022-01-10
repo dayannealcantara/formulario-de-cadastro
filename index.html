@@ -8,14 +8,14 @@
     <title>Formulário de pesquisa</title>
   </head>
   <body>
-    <div>
+    <div class="campo">
       <h1 id="titulo">Cadastro de DEVs</h1>
       <p id="subtitulo">Complete com suas informações</p>
       <br>
     </div>
     <form id="formulario">
       <fieldset class="container">
-        <div>
+        <div class="campo">
           <label for="nome">Nome</label>
           <input type="text" name="nome" id="nome" required />
         </div>
@@ -30,7 +30,7 @@
         <input type="email" id="email" required/>
       </div>
 
-      <div>
+      <div class="campo">
         <label>De qual lado da aplicação você desenvolve</label>
         <label>
           <input
@@ -59,7 +59,7 @@
         </label>
       </div>
 
-      <div>
+      <div class="campo">
         <label for="senioridade">Senioridade</label>
         <select name="senioridade" id="senioridade">
           <option selected disabled>Selecione ...</option>
@@ -69,7 +69,7 @@
         </select>
       </div>
       <fieldset class="container">
-        <div>
+        <div id="check">
           <label>Selecione as tecnologias que você utiliza</label><br /><br />
           <input
             type="checkbox"
@@ -120,9 +120,10 @@
           <label for="tecnologia6">Python</label>
         </div>
       </fieldset>
-      <div>
+      <div class="campo">
         <br />
         <label>Conte um pouco da sua experiência</label>
+        <br>
         <textarea
           name="experiencia"
           id="experiencia"
