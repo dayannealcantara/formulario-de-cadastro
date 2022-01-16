@@ -8,12 +8,13 @@
     <title>Formulário de pesquisa</title>
   </head>
   <body>
-    <div class="campo">
+    <div class="title">
       <h1 id="titulo">Cadastro de DEVs</h1>
       <p id="subtitulo">Complete com suas informações</p>
       <br>
     </div>
-    <form id="formulario">
+    <form class="form" id="formulario">
+      <div class="formContainer">
       <fieldset class="container">
         <div class="campo">
           <label for="nome">Nome</label>
@@ -131,7 +132,11 @@
           style="width: 26em"
         ></textarea>
       </div>
-      <button type="submit" class="button">Enviar</button>
+      <div>
+        <button type="submit" class="button">Enviar</button>
+      </div>
+      
+    </div>
     </form>
   </body>
 </html>
